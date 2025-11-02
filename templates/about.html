@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Website - About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">ModernSite</div>
+            <ul class="nav-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about" class="active">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>About Us</h1>
+                <p>Learn more about our mission and values</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <div class="content-grid">
+                    <div class="content-card">
+                        <h2>Our Mission</h2>
+                        <p>We're dedicated to creating beautiful, functional websites that provide exceptional user experiences. Our goal is to combine cutting-edge technology with elegant design.</p>
+                    </div>
+                    <div class="content-card">
+                        <h2>Our Values</h2>
+                        <ul>
+                            <li>Innovation and creativity</li>
+                            <li>User-centered design</li>
+                            <li>Quality and excellence</li>
+                            <li>Continuous improvement</li>
+                        </ul>
+                    </div>
+                    <div class="content-card">
+                        <h2>Our Team</h2>
+                        <p>We're a passionate team of developers, designers, and creators working together to build amazing digital experiences.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 ModernSite. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
