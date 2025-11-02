@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">ModernSite</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1 class="hero-title">Welcome to the Future</h1>
+            <p class="hero-subtitle">Building beautiful, modern experiences</p>
+            <button class="cta-button" onclick="scrollToSection('contact')">Get Started</button>
+        </div>
+        <div class="hero-background"></div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>We're passionate about creating exceptional digital experiences that combine beautiful design with powerful functionality.</p>
+                    <p>Our team brings together years of expertise in modern web technologies to deliver solutions that exceed expectations.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <div class="stat-number">100+</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Clients</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Years</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">??</div>
+                    <h3>Design</h3>
+                    <p>Beautiful, user-centered design that captivates and converts</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">??</div>
+                    <h3>Development</h3>
+                    <p>Modern, scalable solutions built with cutting-edge technology</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">??</div>
+                    <h3>Optimization</h3>
+                    <p>Performance and SEO optimization for maximum impact</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">??</div>
+                    <h3>Mobile</h3>
+                    <p>Responsive design that works flawlessly on all devices</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 ModernSite. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
